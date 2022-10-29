@@ -1,5 +1,25 @@
 public class Main {
     public static void main(String[] args) {
+// доп.задачки по переменным
+// (6)
+        int a = 12, b = 27, c = 44, d = 15, e = 9;
+        int result = a * ( b + (c - d * e));
+        result = -1 * result;
+        System.out.println("Инвертированный результат = "+ result);
+// (7)
+        a = 5;
+        b = 7;
+        System.out.println("Было:  a = "+ a +", b = "+ b);
+        a = b - a;
+        b = b - a;
+        a = b + a;
+        System.out.println("Стало: a = "+ a +", b = "+ b);
+// (8)
+        a = 538;
+        b = a % 100;
+        b = b /10;
+        System.out.println("В трехзначном числе "+ a +" вторая цифра = "+ b);
+
 // Task 6*
         System.out.println("task 6 *");
 // Определить лимит кредитной карты
